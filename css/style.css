@@ -1,0 +1,49 @@
+[natiga],
+.natiga {
+  position: relative;
+}
+[natiga] .holder,
+.natiga .holder {
+  overflow: hidden;
+  overflow-x: scroll;
+  position: relative;
+  border: 1px solid #e7e7e7;
+}
+[natiga] .holder ul,
+.natiga .holder ul {
+  margin: 0;
+  padding: 0;
+}
+[natiga] .holder ul :nth-child(1) img,
+.natiga .holder ul :nth-child(1) img {
+  background-color: #FBB44C;
+}
+[natiga] .holder ul :nth-child(2) img,
+.natiga .holder ul :nth-child(2) img {
+  background-color: #42B27E;
+}
+[natiga] .holder ul :nth-child(3) img,
+.natiga .holder ul :nth-child(3) img {
+  background-color: #4A4AB2;
+}
+[natiga] .holder ul :nth-child(4) img,
+.natiga .holder ul :nth-child(4) img {
+  background-color: #7eb8d3;
+}
+[natiga] .holder ul :nth-child(5) img,
+.natiga .holder ul :nth-child(5) img {
+  background-color: #688e52;
+}
+[natiga] .holder ul li,
+.natiga .holder ul li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+[natiga] .holder ul li img,
+.natiga .holder ul li img {
+  height: 350px;
+  width: 100%;
+  max-width: 900px;
+}
